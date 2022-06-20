@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Open Sans;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Titles */
+.header-1 {
+font-weight: 400;
+font-size: 34px;
+}
+
+.color-dark{
+    color: black;
+    font-weight: 300;
+}
+
+.color-muted{
+    color:
+}
+
+/* Container Nav */
+.header-container {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.main-nav {
+    width: 50%;
+}
+
+.logo {
+    width: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Navigation Bar */
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.logo-nav {
+    height: 50px;
+    width: 176px;
+}
+
+.menu-item {
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 18px;
+}
+
+/* Catagory Selector */
+.catagory-selector{
+ background-color: white;
+ height: 100px;
+ display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.catagory-section {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.catagory-option {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tite Page */
+.card {
+   display: grid;
+   position: relative;
+   min-height: 568px;
+   align-items: end;
+   padding: 50px;
+}
+
+
+.card-word{
+   padding: 50px;
+}
+
+.card--hero{
+   min-height: 628px;
+}
+
+.card img {
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.card-caption{
+   position: relative;
+}
+
+.card-title{
+   max-width: 33ch;
+   font-weight: 400;
+}
+
+/* Card Grid */
+
+@media screen and (min-width:1200px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
