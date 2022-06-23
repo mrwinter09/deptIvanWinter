@@ -9,6 +9,10 @@ body {
     color: #fff;
 }
 
+.bg-black{
+    background-color: #000;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Open Sans;
 }
@@ -401,11 +405,24 @@ form .action input{
  font-size: 30px;
  color: rgb(132, 0, 255);
 }
+
+.socials{
+    display: none;
+}
+
 @media (min-width: 700px){
     .card-grid {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+    /* .footer-container {
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+    } */
 }
 
 @media (max-width:1100px) {
@@ -504,8 +521,8 @@ form .action input{
 .logo-image{
     background-image: url("./images//Logo/DEPT®\ LOGO\ -\ 2022\ Black.svg");
     background-size: cover;
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -544,12 +561,15 @@ form .action input{
  }
 
 .contact-section {
-    display: block;
-    
+    display: grid;
+ }
+
+ .contact-font{
+    color:black;
  }
 
  .contact-section--flipped{
-     grid-template-columns:1fr 2fr
+     grid-template-columns:1fr
  }
 
  .contact-section__sidebar{
@@ -611,16 +631,19 @@ form .action input{
     padding: 0 150px 0 150px;
 }
 
-
-
 .footer-container {
-    padding: 45px;
+    padding: 20px;
+    display: flex;
+    background-color: black;
+}
+
+/* .footer-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: black;
-}
+} */
 
 .footer-list {
     display: flex;
@@ -632,27 +655,28 @@ form .action input{
 }
 
 .footer-nav{
-    padding-left: 110px; 
+    padding-left: 0px; 
+    flex: 3;
 }
 
 .company-information{
     display: flex;
     flex-direction: column;
-    padding: 45;
+    padding: 0px;
 }
 
 .footer-section {
     display: block;
-    grid-template-columns:90% 10%
  }
 
 
 .footer-right{
-    background-color: #fff;
+    /* background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
+    display: none;
 }
 
 .color-footer{
@@ -663,6 +687,12 @@ form .action input{
 .arrow-footer{
  font-size: 30px;
  color: rgb(132, 0, 255);
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 }

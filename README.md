@@ -1,2 +1,13 @@
-# deptIvanWinter
-npm run start to use this app
+to install this app:
+
+----
+
+npm install
+
+-----
+
+to run this app
+
+-----
+
+npm run start

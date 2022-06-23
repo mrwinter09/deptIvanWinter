@@ -9,6 +9,10 @@ body {
   font-family: Open Sans;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Open Sans;
 }
@@ -350,6 +354,10 @@ form .action input {
   font-size: 30px;
 }
 
+.socials {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -442,8 +450,8 @@ form .action input {
   }
 
   .logo-image {
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
     object-fit: cover;
     background-image: url("DEPT® LOGO - 2022 Black.2a0d513d.svg");
     background-size: cover;
@@ -481,11 +489,15 @@ form .action input {
   }
 
   .contact-section {
-    display: block;
+    display: grid;
+  }
+
+  .contact-font {
+    color: #000;
   }
 
   .contact-section--flipped {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
   }
 
   .contact-section__sidebar {
@@ -549,10 +561,7 @@ form .action input {
 
   .footer-container {
     background-color: #000;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 45px;
+    padding: 20px;
     display: flex;
   }
 
@@ -566,26 +575,22 @@ form .action input {
   }
 
   .footer-nav {
-    padding-left: 110px;
+    flex: 3;
+    padding-left: 0;
   }
 
   .company-information {
     flex-direction: column;
-    padding: 45px;
+    padding: 0;
     display: flex;
   }
 
   .footer-section {
-    grid-template-columns: 90% 10%;
     display: block;
   }
 
   .footer-right {
-    background-color: #fff;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    display: none;
   }
 
   .color-footer {
@@ -596,6 +601,12 @@ form .action input {
   .arrow-footer {
     color: #8400ff;
     font-size: 30px;
+  }
+
+  .socials {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
   }
 }
 
