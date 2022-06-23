@@ -1,13 +1,18 @@
-to install this app:
+# Dept Ivan Winter
 
-----
+Ik gebruik parcel voor bundling en building .... 
 
+install packages
+```
 npm install
+```
 
------
-
-to run this app
-
------
-
+run locally
+```
 npm run start
+```
+
+build 
+```
+npm run build
+```
