@@ -1,6 +1,6 @@
 # Dept Ivan Winter
 
-Ik gebruik parcel voor bundling en building .... 
+i used parcel for bundling and building...
 
 install packages
 ```

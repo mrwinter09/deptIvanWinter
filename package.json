@@ -1,7 +1,7 @@
 {
   "name": "dept-opdracht",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a assignment for the Dept Traineeship by Ivan Winter",
   "main": "src/app.js",
   "scripts": {
     "start": "parcel src/index.html",
