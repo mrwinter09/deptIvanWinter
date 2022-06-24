@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --purple: rgb(132, 0, 255);
+}
+
 body {
     font-family: Open Sans;
     color: #fff;
@@ -41,11 +45,11 @@ img {
 
 article {
 width: 80%;
-margin: 10px;
+margin: 20px;
 }
 
 p {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
     font-weight: 300;
     font-size: 14px;
 }
@@ -77,6 +81,21 @@ font-size: 34px;
 
 .main-nav {
     width: 45%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar{ 
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
 }
 
 .logo--container {
@@ -124,7 +143,7 @@ font-size: 34px;
    line-height: 18px;
 }
 
-/* Dropdown Menu */
+
 
 
 
@@ -138,15 +157,17 @@ font-size: 34px;
 }
 
 .catagory-section {
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
 }
 
 .catagory-option {
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
+    padding-right: 15px;
 }
 
 /* Testimonial */
@@ -379,7 +400,17 @@ form .action input{
 .company-information{
     display: flex;
     flex-direction: row;
-    padding: 45;
+    padding: 45px 0px 45px 0px
+}
+
+.company-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.company-font{
+    color: #808080;
 }
 
 .footer-section {
@@ -397,13 +428,13 @@ form .action input{
 }
 
 .color-footer{
-    color: rgb(132, 0, 255);
+    color: var(--purple);
     font-weight: 300;
 }
 
 .arrow-footer{
  font-size: 30px;
- color: rgb(132, 0, 255);
+ color: var(--purple);
 }
 
 .socials{
@@ -437,7 +468,42 @@ form .action input{
     background-color: rgb(255, 254, 254);
 }
 
+.menu-item {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+ }
+
+/* Dropdown Menu */
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.burger-flex{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.bar{ 
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
 .menu-list {
+    display: none;
+}
+
+.menu-hidden{
     display: none;
 }
 
@@ -566,6 +632,7 @@ form .action input{
 
  .contact-font{
     color:black;
+    font-size: 20px
  }
 
  .contact-section--flipped{
@@ -574,7 +641,8 @@ form .action input{
 
  .contact-section__sidebar{
     background-color: #fff;
-    margin-left: 50px;
+    margin-left: 0px;
+    padding-left: 10px;
  }
 
  .contact-section--flipped .contact-section__sidebar{
@@ -632,18 +700,12 @@ form .action input{
 }
 
 .footer-container {
-    padding: 20px;
+    padding: 25px 25px 50px 25px;
     display: flex;
+    align-items: flex-start;
     background-color: black;
 }
 
-/* .footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: black;
-} */
 
 .footer-list {
     display: flex;
@@ -662,7 +724,11 @@ form .action input{
 .company-information{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0px 210px 0px 15px;
+}
+
+.company-credits {
+    padding: 10px 0px 0px 15px;
 }
 
 .footer-section {
@@ -671,28 +737,43 @@ form .action input{
 
 
 .footer-right{
-    /* background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center; */
     display: none;
 }
 
 .color-footer{
-    color: rgb(132, 0, 255);
+    color: var(--purple);
     font-weight: 300;
 }
 
 .arrow-footer{
  font-size: 30px;
- color: rgb(132, 0, 255);
+ color: var(--purple);
 }
 
 .socials{
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: flex-end;
 }
+
+.social-item{
+    font-size: 15px;
+}
+
+.company-section{
+    padding: 40px 0px 50px 0px;
+}
+
+.company-font{
+    font-size: 10px;
+    color: #808080;
+}
+
+.logo--container-mobile{
+    display: none;
+}
+
+
 
 }
