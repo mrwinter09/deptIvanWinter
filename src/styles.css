@@ -44,8 +44,8 @@ img {
 }
 
 article {
-width: 80%;
-margin: 20px;
+    width: 80%;
+    margin: 20px;
 }
 
 p {
@@ -57,8 +57,8 @@ p {
 
 /* Titles */
 .header-1 {
-font-weight: 400;
-font-size: 34px;
+    font-weight: 400;
+    font-size: 34px;
 }
 
 .color-dark{
@@ -195,44 +195,44 @@ font-size: 34px;
 
 /* Tite Page */
 .card {
-   display: grid;
-   position: relative;
-   min-height: 568px;
-   align-items: end;
-   padding: 50px;
+    display: grid;
+    position: relative;
+    min-height: 568px;
+    align-items: end;
+    padding: 50px;
 }
 
 
 .card-word{
-   padding: 50px;
+    padding: 50px;
 }
 
 .card--hero{
-   min-height: 628px;
+    min-height: 628px;
 }
 
 .card img {
-   height: 100%;
-   object-fit: cover;
-   position: absolute;
-   top: 0;
-   left: 0;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .card-caption{
-   position: relative;
+    position: relative;
 }
 
 .card-title{
-   max-width: 33ch;
-   font-weight: 400;
+    max-width: 33ch;
+    font-weight: 400;
 }
 
 /* sidebar Section */
 
 .sidebar-section {
-   display: grid;
-   grid-template-columns:2fr 1fr
+    display: grid;
+    grid-template-columns:2fr 1fr
 }
 
 .sidebar-section--flipped{
@@ -240,19 +240,19 @@ font-size: 34px;
 }
 
 .sidebar-section__sidebar{
-   background-color: #000;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-section--flipped .sidebar-section__sidebar{
-  order: 1;
+    order: 1;
 }
 
 .sidebar-section--flipped .sidebar-section__card{
-  order: 2;
+    order: 2;
 }
 
 
@@ -323,11 +323,11 @@ font-size: 34px;
  }
 
  .contact-section--flipped .contact-section__sidebar{
-   order: 1;
+    order: 1;
  }
 
  .contact-section--flipped .contact-section__card{
-   order: 2;
+    order: 2;
  }
 
 form .half{
@@ -433,8 +433,8 @@ form .action input{
 }
 
 .arrow-footer{
- font-size: 30px;
- color: var(--purple);
+    font-size: 30px;
+    color: var(--purple);
 }
 
 .socials{
@@ -447,13 +447,6 @@ form .action input{
         grid-template-columns: repeat(2,1fr);
     }
 
-    /* .footer-container {
-        padding: 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: black;
-    } */
 }
 
 @media (max-width:1100px) {
@@ -489,7 +482,7 @@ form .action input{
     padding-right: 10px;
 }
 
-.bar{ 
+.bar{
     display: block;
     width: 25px;
     height: 3px;
@@ -568,11 +561,11 @@ form .action input{
  }
 
  .sidebar-section--flipped .sidebar-section__sidebar{
-   order: 1;
+    order: 1;
  }
 
  .sidebar-section--flipped .sidebar-section__card{
-   order: 2;
+    order: 2;
  }
 
 .mobile{
@@ -646,11 +639,11 @@ form .action input{
  }
 
  .contact-section--flipped .contact-section__sidebar{
-   order: 1;
+    order: 1;
  }
 
  .contact-section--flipped .contact-section__card{
-   order: 2;
+    order: 2;
  }
 
 form .half{
@@ -717,7 +710,7 @@ form .action input{
 }
 
 .footer-nav{
-    padding-left: 0px; 
+    padding-left: 0px;
     flex: 3;
 }
 
@@ -746,8 +739,8 @@ form .action input{
 }
 
 .arrow-footer{
- font-size: 30px;
- color: var(--purple);
+    font-size: 30px;
+    color: var(--purple);
 }
 
 .socials{
